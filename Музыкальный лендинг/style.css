@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 850px;
+    background: grey;
+}
+
+ul li{
+    list-style: none;
+    position: relative;
+    width: 20%;
+    height: 100%;
+    border-right: 1px solid black;
+    float: left;
+    box-sizing: border-box;
+    transition: 0.6s;
+    text-align: center;
+    overflow: hidden;
+    filter: opacity (50%);
+}
+
+ul li:nth-child(1){
+    background: url(p1_2473642_f16f522c.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+ul li:nth-child(2){
+    background: url(1680x1103_517722_[www.ArtFile.ru].jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+ul li:nth-child(3){
+    background: url(asphalt-8-airborne-game-race.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+ul li:nth-child(4){
+    background: url(racer_top.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+ul li:nth-child(5){
+    background: url(maxresdefault.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+ul:hover li{
+    width: 10%;
+}
+
+ul li:hover{
+    width: 60%;
+    filter: opacity(100%);
+    cursor: progress;
+}
+
+ul li .music{
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    background:
+    rgba(74,106,117, 0.6);
+    box-sizing: border-box;
+    color: black;
+}
+
+ul li:hover .music{
+    bottom: 0;
+    transition: 0.5s;
+    transition-delay: 0.4s;
+}
+
+ul li .music audio{
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
